@@ -93,8 +93,16 @@ class Version
 
     public function getECBlocksForLevel($ecLevel)
     {
-        return $this->ecBlocks[$ecLevel->getOrdinal()];
-    }
+        if(is_array($this->ecBlocks))
+        {
+           return $this->ecBlocks[$ecLevel->getOrdinal()];
+        }
+        else
+        {
+           return $this->ecBlocks;
+        }
+     }
+
 
     /**
      * <p>Deduces version information purely from QR Code dimensions.</p>
