@@ -1,5 +1,5 @@
 {
-  "name": "khanamiryan/qrcode-detector-decoder",
+  "name": "safeermtp/qrcode-detector-decoder",
   "type": "library",
   "description": "QR code decoder / reader",
   "keywords": [
@@ -7,7 +7,7 @@
     "zxing",
     "barcode"
   ],
-  "homepage": "https://github.com/khanamiryan/php-qrcode-detector-decoder/",
+  "homepage": "https://github.com/safeermtp/php-qrcode-detector-decoder/",
   "license": [
     "MIT",
     "Apache-2.0"
